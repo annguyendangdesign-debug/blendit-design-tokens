@@ -1,0 +1,545 @@
+{
+  "fill": {
+    "background": {
+      "$type": "color",
+      "$value": "{color.graphite.950}"
+    },
+    "surface": {
+      "$type": "color",
+      "$value": "{color.graphite.800}"
+    },
+    "surfaceElevated": {
+      "$type": "color",
+      "$value": "{color.graphite.500}"
+    },
+    "surfaceSunken": {
+      "$type": "color",
+      "$value": "{color.graphite.900}"
+    },
+    "primary": {
+      "$type": "color",
+      "$value": "{color.brand.500}"
+    },
+    "primaryPressed": {
+      "$type": "color",
+      "$value": "{color.brand.600}"
+    },
+    "primaryDisabled": {
+      "$type": "color",
+      "$value": "{color.brand.200}"
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "{color.graphite.600}"
+    },
+    "secondaryPressed": {
+      "$type": "color",
+      "$value": "{color.graphite.500}"
+    },
+    "successSubtle": {
+      "$type": "color",
+      "$value": "{color.green.800}"
+    },
+    "warningSubtle": {
+      "$type": "color",
+      "$value": "{color.yellow.900}"
+    },
+    "errorSubtle": {
+      "$type": "color",
+      "$value": "{color.red.800}",
+      "$description": "Nền nhạt cho trạng thái lỗi. Dùng error/200 (không phải /100) vì /100 gần như trùng với fill/primaryContainer — brand Goodblend cũng là đỏ."
+    },
+    "infoSubtle": {
+      "$type": "color",
+      "$value": "{color.blue.800}"
+    },
+    "successSolid": {
+      "$type": "color",
+      "$value": "{color.green.500}"
+    },
+    "warningSolid": {
+      "$type": "color",
+      "$value": "{color.yellow.400}"
+    },
+    "errorSolid": {
+      "$type": "color",
+      "$value": "{color.red.400}"
+    },
+    "infoSolid": {
+      "$type": "color",
+      "$value": "{color.blue.400}"
+    },
+    "scrim": {
+      "default": {
+        "$type": "color",
+        "$value": "#0B0E12CC",
+        "$description": "Scrim sau overlay/popup. Alpha nằm trong token (80% cả Light & Dark) — paint opacity giữ 100%."
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#00000059"
+      }
+    },
+    "ghostPressed": {
+      "$type": "color",
+      "$value": "{fill.primaryContainer}",
+      "$description": "Nền ghost/outlined khi nhấn. Alias vào fill/primaryContainer (cùng tint brand nhạt) — một nguồn duy nhất."
+    },
+    "overlayPressed": {
+      "$type": "color",
+      "$value": "{color.white}",
+      "$description": "State layer pressed trung tính (alpha). Cùng nhóm với fill/overlay (scrim)."
+    },
+    "neutral": {
+      "$type": "color",
+      "$value": "{color.white}"
+    },
+    "neutralPressed": {
+      "$type": "color",
+      "$value": "{color.ivory.300}"
+    },
+    "primaryContainer": {
+      "$type": "color",
+      "$value": "{color.brand.700}",
+      "$description": "Nền nút tonal (button--tonal, icon-button--tonal). Brand 10% — KHÔNG dùng chung với fill/ghostPressed."
+    },
+    "primaryContainerPressed": {
+      "$type": "color",
+      "$value": "{color.brand.800}"
+    },
+    "primaryContainerDisabled": {
+      "$type": "color",
+      "$value": "{color.graphite.700}",
+      "$description": "Nền nút tonal khi disabled. brand/100 @ 50%."
+    },
+    "neutralSubtle": {
+      "$type": "color",
+      "$value": "{color.graphite.700}",
+      "$description": "Nền tag/nhãn tone neutral. Cố ý dùng graphite (xám lạnh) chứ KHÔNG dùng ivory — ivory/400 quá gần với fill/warningSubtle nên hai tone bị lẫn."
+    },
+    "surfaceSunkenPressed": {
+      "$type": "color",
+      "$value": "{color.graphite.700}"
+    },
+    "accentSubtle": {
+      "$type": "color",
+      "$value": "{color.purple.900}",
+      "$description": "Nhóm accent (tím) — dùng cho nhãn gợi ý kiểu \"Nên thử\". Dựng theo đúng mẫu của nhóm success/warning/error nên tone=accent của tag hoạt động y hệt các tone kia."
+    },
+    "accentSolid": {
+      "$type": "color",
+      "$value": "{color.purple.500}",
+      "$description": "Nhóm accent (tím) — dùng cho nhãn gợi ý kiểu \"Nên thử\". Dựng theo đúng mẫu của nhóm success/warning/error nên tone=accent của tag hoạt động y hệt các tone kia."
+    },
+    "primaryContainerSubtle": {
+      "$type": "color",
+      "$value": "{color.brand.800}",
+      "$description": "Nền tonal nhạt hơn primaryContainer — dùng cho chip giá XP trên reward-card."
+    },
+    "onDark": {
+      "a10": {
+        "$type": "color",
+        "$value": "#FFFFFF1A"
+      },
+      "a14": {
+        "$type": "color",
+        "$value": "#FFFFFF24"
+      },
+      "a70": {
+        "$type": "color",
+        "$value": "#FFFFFFB2"
+      },
+      "a90": {
+        "$type": "color",
+        "$value": "#FFFFFFE6"
+      }
+    },
+    "surfaceInset": {
+      "$type": "color",
+      "$value": "#12192080",
+      "$description": "fill/surfaceSunken ở 50% alpha — nền khối thông tin phụ trong thẻ/sheet (F11)."
+    }
+  },
+  "text": {
+    "primary": {
+      "$type": "color",
+      "$value": "{color.white}"
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "{color.ivory.300}"
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "{color.graphite.300}"
+    },
+    "disabled": {
+      "$type": "color",
+      "$value": "{color.graphite.400}"
+    },
+    "inverse": {
+      "$type": "color",
+      "$value": "{color.graphite.900}"
+    },
+    "onPrimary": {
+      "$type": "color",
+      "$value": "{color.white}"
+    },
+    "onSecondary": {
+      "$type": "color",
+      "$value": "{color.brand.200}"
+    },
+    "brand": {
+      "$type": "color",
+      "$value": "{color.brand.400}"
+    },
+    "link": {
+      "$type": "color",
+      "$value": "{color.brand.300}"
+    },
+    "success": {
+      "$type": "color",
+      "$value": "{color.green.100}"
+    },
+    "warning": {
+      "$type": "color",
+      "$value": "{color.orange.100}"
+    },
+    "error": {
+      "$type": "color",
+      "$value": "{color.red.100}",
+      "$description": "Chữ trạng thái lỗi. Dùng error/800 (không phải /700) để tách khỏi text/onPrimaryContainer = brand/600 — brand Goodblend cũng đỏ nên hai token dễ lẫn."
+    },
+    "onSuccessSolid": {
+      "$type": "color",
+      "$value": "{color.graphite.900}"
+    },
+    "onWarningSolid": {
+      "$type": "color",
+      "$value": "{color.orange.900}"
+    },
+    "onErrorSolid": {
+      "$type": "color",
+      "$value": "{color.graphite.900}"
+    },
+    "onInfoSolid": {
+      "$type": "color",
+      "$value": "{color.graphite.900}"
+    },
+    "info": {
+      "$type": "color",
+      "$value": "{color.blue.200}",
+      "$description": "Text informational trên nền infoSubtle/surface."
+    },
+    "onPrimaryMuted": {
+      "$type": "color",
+      "$value": "{color.brand.100}",
+      "$description": "Chữ phụ trên nền fill/primary (đỏ ở cả 2 mode) · Light & Dark: brand/100"
+    },
+    "onPrimaryContainer": {
+      "$type": "color",
+      "$value": "{color.brand.50}"
+    },
+    "brandDisabled": {
+      "$type": "color",
+      "$value": "{color.graphite.400}",
+      "$description": "Chữ disabled của nhóm nút nhấn thấp mang màu brand: tonal, ghost, outlined. Thay cho text/disabled (xám)."
+    },
+    "onPrimaryDisabled": {
+      "$type": "color",
+      "$value": "{color.brand.700}",
+      "$description": "Chữ trên nền primary khi disabled. CỐ ĐỊNH brand/700 ở cả 2 mode vì fill/primaryDisabled cũng đứng yên brand/200. Không dùng text/brandDisabled vì token đó lật theo mode."
+    },
+    "accent": {
+      "$type": "color",
+      "$value": "{color.purple.100}",
+      "$description": "Nhóm accent (tím) — dùng cho nhãn gợi ý kiểu \"Nên thử\". Dựng theo đúng mẫu của nhóm success/warning/error nên tone=accent của tag hoạt động y hệt các tone kia."
+    },
+    "onAccentSolid": {
+      "$type": "color",
+      "$value": "{color.white}",
+      "$description": "Nhóm accent (tím) — dùng cho nhãn gợi ý kiểu \"Nên thử\". Dựng theo đúng mẫu của nhóm success/warning/error nên tone=accent của tag hoạt động y hệt các tone kia."
+    }
+  },
+  "icon": {
+    "default": {
+      "$type": "color",
+      "$value": "{color.graphite.400}"
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "{color.graphite.400}"
+    },
+    "disabled": {
+      "$type": "color",
+      "$value": "{color.graphite.400}"
+    },
+    "inverse": {
+      "$type": "color",
+      "$value": "{color.graphite.900}"
+    },
+    "onPrimary": {
+      "$type": "color",
+      "$value": "{color.white}"
+    },
+    "onSecondary": {
+      "$type": "color",
+      "$value": "{color.brand.300}"
+    },
+    "brand": {
+      "$type": "color",
+      "$value": "{color.brand.400}"
+    },
+    "success": {
+      "$type": "color",
+      "$value": "{color.green.300}"
+    },
+    "warning": {
+      "$type": "color",
+      "$value": "{color.orange.300}"
+    },
+    "error": {
+      "$type": "color",
+      "$value": "{color.red.300}"
+    },
+    "info": {
+      "$type": "color",
+      "$value": "{color.blue.300}"
+    },
+    "onPrimaryContainer": {
+      "$type": "color",
+      "$value": "{color.brand.100}"
+    },
+    "brandDisabled": {
+      "$type": "color",
+      "$value": "{color.graphite.400}",
+      "$description": "Icon disabled của nhóm tonal / ghost / outlined."
+    },
+    "onSuccessSolid": {
+      "$type": "color",
+      "$value": "{color.graphite.900}",
+      "$description": "Icon trên nền success đặc. Cùng giá trị với text/onSuccessSolid."
+    },
+    "onWarningSolid": {
+      "$type": "color",
+      "$value": "{color.orange.900}",
+      "$description": "Icon trên nền warning đặc. Cùng giá trị với text/onWarningSolid."
+    },
+    "onErrorSolid": {
+      "$type": "color",
+      "$value": "{color.graphite.900}",
+      "$description": "Icon trên nền error đặc. Cùng giá trị với text/onErrorSolid."
+    },
+    "onInfoSolid": {
+      "$type": "color",
+      "$value": "{color.graphite.900}",
+      "$description": "Icon trên nền info đặc. Cùng giá trị với text/onInfoSolid."
+    },
+    "onPrimaryDisabled": {
+      "$type": "color",
+      "$value": "{color.brand.700}",
+      "$description": "Icon trên nền primary khi disabled. Cùng giá trị với text/onPrimaryDisabled."
+    },
+    "accent": {
+      "$type": "color",
+      "$value": "{color.purple.300}",
+      "$description": "Nhóm accent (tím) — dùng cho nhãn gợi ý kiểu \"Nên thử\". Dựng theo đúng mẫu của nhóm success/warning/error nên tone=accent của tag hoạt động y hệt các tone kia."
+    },
+    "onAccentSolid": {
+      "$type": "color",
+      "$value": "{color.white}",
+      "$description": "Nhóm accent (tím) — dùng cho nhãn gợi ý kiểu \"Nên thử\". Dựng theo đúng mẫu của nhóm success/warning/error nên tone=accent của tag hoạt động y hệt các tone kia."
+    }
+  },
+  "stroke": {
+    "subtle": {
+      "$type": "color",
+      "$value": "{color.graphite.600}"
+    },
+    "default": {
+      "$type": "color",
+      "$value": "{color.graphite.400}"
+    },
+    "strong": {
+      "$type": "color",
+      "$value": "{color.graphite.400}"
+    },
+    "disabled": {
+      "$type": "color",
+      "$value": "{color.graphite.700}"
+    },
+    "focus": {
+      "$type": "color",
+      "$value": "{color.blue.400}",
+      "$description": "Focus ring — blue (tách khỏi error/brand để phân biệt state)."
+    },
+    "onPrimary": {
+      "$type": "color",
+      "$value": "{color.white}"
+    },
+    "brand": {
+      "$type": "color",
+      "$value": "{color.brand.300}"
+    },
+    "error": {
+      "$type": "color",
+      "$value": "{color.red.300}"
+    },
+    "success": {
+      "$type": "color",
+      "$value": "{color.green.300}"
+    },
+    "warning": {
+      "$type": "color",
+      "$value": "{color.orange.300}",
+      "$description": "Viền trạng thái warning."
+    },
+    "info": {
+      "$type": "color",
+      "$value": "{color.blue.300}",
+      "$description": "Viền trạng thái info."
+    },
+    "brandDisabled": {
+      "$type": "color",
+      "$value": "{color.graphite.600}",
+      "$description": "Viền outlined khi disabled. brand 30%."
+    }
+  },
+  "component": {
+    "goal": {
+      "muscle": {
+        "container": {
+          "$type": "color",
+          "$value": "{color.blue.800}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{color.blue.300}"
+        }
+      },
+      "lean": {
+        "container": {
+          "$type": "color",
+          "$value": "{color.green.800}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{color.green.200}"
+        }
+      },
+      "skin": {
+        "container": {
+          "$type": "color",
+          "$value": "{color.pink.800}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{color.pink.300}"
+        }
+      },
+      "maintain": {
+        "container": {
+          "$type": "color",
+          "$value": "{color.purple.600}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{color.purple.200}"
+        }
+      }
+    },
+    "neutralGradient": {
+      "start": {
+        "$type": "color",
+        "$value": "{color.ivory.300}",
+        "$description": "Đầu sáng của gradient nút neutral. Light → graphite/500 · Dark → ivory/300. PHẢI đi cùng thang với fill/neutral, nếu không nút sẽ mất chữ ở một mode."
+      },
+      "end": {
+        "$type": "color",
+        "$value": "{color.white}",
+        "$description": "Đầu tối của gradient nút neutral. Light → graphite/900 · Dark → ivory/100 (khớp đúng fill/neutral)."
+      }
+    },
+    "toggle": {
+      "off": {
+        "$type": "color",
+        "$value": "{color.graphite.500}",
+        "$description": "Nền track của switch/toggle khi OFF. Đặc 100% (thay cho graphite/900 @ 18% RAW cũ — vốn phụ thuộc nền). Light → graphite/200 (khớp màu flatten trên nền sáng) · Dark → graphite/600 (đọc được trên nền tối)."
+      }
+    },
+    "membershipCard": {
+      "grad1": {
+        "$type": "color",
+        "$value": "{color.brand.400}"
+      },
+      "grad2": {
+        "$type": "color",
+        "$value": "{color.brand.500}"
+      },
+      "grad3": {
+        "$type": "color",
+        "$value": "{color.brand.600}"
+      },
+      "edge1": {
+        "$type": "color",
+        "$value": "{color.brand.200}",
+        "$description": "Viền membership card (đầu gradient) · Light: graphite/400 · Dark: brand/200"
+      },
+      "edge2": {
+        "$type": "color",
+        "$value": "{color.brand.300}",
+        "$description": "Viền membership card (cuối gradient) · Light: graphite/600 · Dark: brand/700"
+      }
+    }
+  },
+  "shadow": {
+    "level1": {
+      "ambient": {
+        "$type": "color",
+        "$value": "#0000001C",
+        "$description": "Màu bóng đổ 1-ambient. Dark mode dùng đen thuần, alpha đậm hơn ~1.8× để bóng còn thấy được trên nền tối."
+      },
+      "key": {
+        "$type": "color",
+        "$value": "#00000024",
+        "$description": "Màu bóng đổ 1-key. Dark mode dùng đen thuần, alpha đậm hơn ~1.8× để bóng còn thấy được trên nền tối."
+      }
+    },
+    "level2": {
+      "ambient": {
+        "$type": "color",
+        "$value": "#0000001C",
+        "$description": "Màu bóng đổ 2-ambient. Dark mode dùng đen thuần, alpha đậm hơn ~1.8× để bóng còn thấy được trên nền tối."
+      },
+      "key": {
+        "$type": "color",
+        "$value": "#0000002E",
+        "$description": "Màu bóng đổ 2-key. Dark mode dùng đen thuần, alpha đậm hơn ~1.8× để bóng còn thấy được trên nền tối."
+      }
+    },
+    "level3": {
+      "ambient": {
+        "$type": "color",
+        "$value": "#00000024",
+        "$description": "Màu bóng đổ 3-ambient. Dark mode dùng đen thuần, alpha đậm hơn ~1.8× để bóng còn thấy được trên nền tối."
+      },
+      "key": {
+        "$type": "color",
+        "$value": "#00000038",
+        "$description": "Màu bóng đổ 3-key. Dark mode dùng đen thuần, alpha đậm hơn ~1.8× để bóng còn thấy được trên nền tối."
+      }
+    },
+    "level4": {
+      "ambient": {
+        "$type": "color",
+        "$value": "#0000002E",
+        "$description": "Màu bóng đổ 4-ambient. Dark mode dùng đen thuần, alpha đậm hơn ~1.8× để bóng còn thấy được trên nền tối."
+      },
+      "key": {
+        "$type": "color",
+        "$value": "#00000040",
+        "$description": "Màu bóng đổ 4-key. Dark mode dùng đen thuần, alpha đậm hơn ~1.8× để bóng còn thấy được trên nền tối."
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "elevation": {
+    "level1": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "{shadow.level1.ambient}",
+          "offsetX": "0px",
+          "offsetY": "1px",
+          "blur": "2px",
+          "spread": "0px"
+        },
+        {
+          "color": "{shadow.level1.key}",
+          "offsetX": "0px",
+          "offsetY": "2px",
+          "blur": "6px",
+          "spread": "0px"
+        }
+      ]
+    },
+    "level2": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "{shadow.level2.ambient}",
+          "offsetX": "0px",
+          "offsetY": "1px",
+          "blur": "3px",
+          "spread": "0px"
+        },
+        {
+          "color": "{shadow.level2.key}",
+          "offsetX": "0px",
+          "offsetY": "4px",
+          "blur": "12px",
+          "spread": "0px"
+        }
+      ]
+    },
+    "level3": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "{shadow.level3.ambient}",
+          "offsetX": "0px",
+          "offsetY": "2px",
+          "blur": "6px",
+          "spread": "0px"
+        },
+        {
+          "color": "{shadow.level3.key}",
+          "offsetX": "0px",
+          "offsetY": "8px",
+          "blur": "24px",
+          "spread": "0px"
+        }
+      ]
+    },
+    "level4": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": "{shadow.level4.ambient}",
+          "offsetX": "0px",
+          "offsetY": "4px",
+          "blur": "8px",
+          "spread": "0px"
+        },
+        {
+          "color": "{shadow.level4.key}",
+          "offsetX": "0px",
+          "offsetY": "12px",
+          "blur": "32px",
+          "spread": "0px"
+        }
+      ]
+    }
+  }
+}

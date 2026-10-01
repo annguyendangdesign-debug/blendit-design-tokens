@@ -1,0 +1,854 @@
+{
+  "color": {
+    "brand": {
+      "100": {
+        "$type": "color",
+        "$value": "#FBE4E5"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#F7C0C2"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#EF8E92"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#E15A5E"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#C1272D"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#A81F26"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#88181F"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#651217"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#420B0E"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "#FDF3F3"
+      }
+    },
+    "graphite": {
+      "100": {
+        "$type": "color",
+        "$value": "#EAEDF0"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#D2D8DE"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#A8B2BD"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#6E7B89"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#3A424A"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#2F363D"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#232930"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#181D23"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#121920"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#0B0E12",
+        "$description": "Bậc mở rộng chỉ có ở graphite — dùng cho fill/surfaceSunken (Dark)."
+      }
+    },
+    "ivory": {
+      "100": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#FEFCF8"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#FDF9F3"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#F6EFE4"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#EBE2D2"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#D8CDB9"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#B7AD98"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#8A8270"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#5C564A"
+      }
+    },
+    "orange": {
+      "100": {
+        "$type": "color",
+        "$value": "#FFE8D1"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#FFD4A8"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#FFCB8F"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#FEB872"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#F59628"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#F08100"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#C26800"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#944F00"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#613400"
+      }
+    },
+    "green": {
+      "100": {
+        "$type": "color",
+        "$value": "#EAF8EA"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#C6ECC6"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#A2DCA2"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#87C987"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#5AAE5A"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#449444"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#347434"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#255425"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#163516"
+      }
+    },
+    "pink": {
+      "100": {
+        "$type": "color",
+        "$value": "#FDE3EB"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#F8CEDC"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#F0A8C2"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#EC8DAD"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#DC5E86"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#C03060"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#9E2750"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#761C3B"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#4E1227"
+      }
+    },
+    "yellow": {
+      "100": {
+        "$type": "color",
+        "$value": "#FFFAEB"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#FFE9AD"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#FFDD8F"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#FFC643"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#FFBD24"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#F0A700"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#C28700"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#946700"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#614400"
+      }
+    },
+    "blue": {
+      "100": {
+        "$type": "color",
+        "$value": "#E5EEFF"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#CDDDFF"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#8DB0FB"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#5C8EFF"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#2467FF"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#3062D4"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#003BC2"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#002D94"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#001E61"
+      }
+    },
+    "purple": {
+      "100": {
+        "$type": "color",
+        "$value": "#F2E5FF"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#E5D0FB"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#C494F4"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#AE5CFF"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#9224FF"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#8040BF"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#6200C2"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#4B0094"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#310061"
+      }
+    },
+    "red": {
+      "100": {
+        "$type": "color",
+        "$value": "#FEE9E7"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#FCC9C4"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#F59B93"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#EE6459"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#F0392C"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#D21F16"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#A81610"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#7C0F0B"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#4F0806"
+      }
+    },
+    "white": {
+      "$type": "color",
+      "$value": "#FFFFFF"
+    },
+    "black": {
+      "$type": "color",
+      "$value": "#000000"
+    }
+  },
+  "spacing": {
+    "0": {
+      "$type": "dimension",
+      "$value": "0px",
+      "$description": "Bậc 0dp trong thang spacing. Đặt tên bằng SỐ để chèn bậc mới lúc nào cũng được — thang t-shirt cũ hết chỗ đặt tên."
+    },
+    "2": {
+      "$type": "dimension",
+      "$value": "2px",
+      "$description": "Bậc 2dp trong thang spacing. Đặt tên bằng SỐ để chèn bậc mới lúc nào cũng được — thang t-shirt cũ hết chỗ đặt tên."
+    },
+    "4": {
+      "$type": "dimension",
+      "$value": "4px",
+      "$description": "Bậc 4dp trong thang spacing. Đặt tên bằng SỐ để chèn bậc mới lúc nào cũng được — thang t-shirt cũ hết chỗ đặt tên."
+    },
+    "6": {
+      "$type": "dimension",
+      "$value": "6px",
+      "$description": "Bậc 6dp — thêm 28/07 vì hệ đang dùng giá trị này ở hàng trăm chỗ mà thang cũ không có slot."
+    },
+    "8": {
+      "$type": "dimension",
+      "$value": "8px",
+      "$description": "Bậc 8dp trong thang spacing. Đặt tên bằng SỐ để chèn bậc mới lúc nào cũng được — thang t-shirt cũ hết chỗ đặt tên."
+    },
+    "10": {
+      "$type": "dimension",
+      "$value": "10px",
+      "$description": "Bậc 10dp — thêm 28/07 vì hệ đang dùng giá trị này ở hàng trăm chỗ mà thang cũ không có slot."
+    },
+    "12": {
+      "$type": "dimension",
+      "$value": "12px",
+      "$description": "Bậc 12dp trong thang spacing. Đặt tên bằng SỐ để chèn bậc mới lúc nào cũng được — thang t-shirt cũ hết chỗ đặt tên."
+    },
+    "16": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$description": "Bậc 16dp trong thang spacing. Đặt tên bằng SỐ để chèn bậc mới lúc nào cũng được — thang t-shirt cũ hết chỗ đặt tên."
+    },
+    "20": {
+      "$type": "dimension",
+      "$value": "20px",
+      "$description": "Bậc 20dp — thêm 28/07 vì hệ đang dùng giá trị này ở hàng trăm chỗ mà thang cũ không có slot."
+    },
+    "24": {
+      "$type": "dimension",
+      "$value": "24px",
+      "$description": "Bậc 24dp trong thang spacing. Đặt tên bằng SỐ để chèn bậc mới lúc nào cũng được — thang t-shirt cũ hết chỗ đặt tên."
+    },
+    "32": {
+      "$type": "dimension",
+      "$value": "32px",
+      "$description": "Bậc 32dp trong thang spacing. Đặt tên bằng SỐ để chèn bậc mới lúc nào cũng được — thang t-shirt cũ hết chỗ đặt tên."
+    },
+    "40": {
+      "$type": "dimension",
+      "$value": "40px",
+      "$description": "Bậc 40 — khoảng cách giữa các nhóm lớn trong màn. Bổ sung 29/07 vì 99 chỗ đang dùng 40 lệch thang."
+    },
+    "48": {
+      "$type": "dimension",
+      "$value": "48px",
+      "$description": "Bậc 48dp trong thang spacing. Đặt tên bằng SỐ để chèn bậc mới lúc nào cũng được — thang t-shirt cũ hết chỗ đặt tên."
+    }
+  },
+  "radius": {
+    "none": {
+      "$type": "dimension",
+      "$value": "0px"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "xxl": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "pill": {
+      "$type": "dimension",
+      "$value": "999px"
+    },
+    "xxxl": {
+      "$type": "dimension",
+      "$value": "32px"
+    }
+  },
+  "touchTarget": {
+    "min": {
+      "$type": "dimension",
+      "$value": "48px",
+      "$description": "Vùng chạm tối thiểu cho control chính (48dp, chuẩn Material). Áp cho button, icon-button, list-item, tab, nav item."
+    },
+    "compact": {
+      "$type": "dimension",
+      "$value": "44px",
+      "$description": "Vùng chạm cho control dày đặc — chip size=md, nút phụ trong toolbar. 44dp là ngưỡng iOS. Dùng khi 48dp làm vỡ bố cục, không dùng thay mặc định."
+    }
+  },
+  "font": {
+    "family": {
+      "display": {
+        "$type": "fontFamily",
+        "$value": "Be Vietnam Pro"
+      },
+      "heading": {
+        "$type": "fontFamily",
+        "$value": "Be Vietnam Pro"
+      },
+      "body": {
+        "$type": "fontFamily",
+        "$value": "Be Vietnam Pro"
+      }
+    },
+    "weight": {
+      "regular": {
+        "$type": "string",
+        "$value": "Regular"
+      },
+      "medium": {
+        "$type": "string",
+        "$value": "Medium"
+      },
+      "semibold": {
+        "$type": "string",
+        "$value": "SemiBold"
+      },
+      "bold": {
+        "$type": "string",
+        "$value": "Bold"
+      }
+    },
+    "size": {
+      "display": {
+        "lg": {
+          "$type": "dimension",
+          "$value": "40px"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "36px"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "32px"
+        }
+      },
+      "heading": {
+        "lg": {
+          "$type": "dimension",
+          "$value": "28px"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "22px"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "18px"
+        }
+      },
+      "body": {
+        "lg": {
+          "$type": "dimension",
+          "$value": "14px"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "12px"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "11px"
+        }
+      },
+      "label": {
+        "lg": {
+          "$type": "dimension",
+          "$value": "14px"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "12px"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "10px"
+        },
+        "xl": {
+          "$type": "dimension",
+          "$value": "16px"
+        }
+      },
+      "button": {
+        "sm": {
+          "$type": "dimension",
+          "$value": "13px",
+          "$description": "Ramp riêng cho button v2 (đổi tên từ font/size/label-s). Không trùng font/size/label/*."
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "15px",
+          "$description": "Ramp riêng cho button v2 (đổi tên từ font/size/label-m). Không trùng font/size/label/*."
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": "16px",
+          "$description": "Ramp riêng cho button v2 (đổi tên từ font/size/label-l). Không trùng font/size/label/*."
+        }
+      }
+    },
+    "lineHeight": {
+      "display": {
+        "lg": {
+          "$type": "dimension",
+          "$value": "46px"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "42px"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "38px"
+        }
+      },
+      "heading": {
+        "lg": {
+          "$type": "dimension",
+          "$value": "34px"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "28px"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "24px"
+        }
+      },
+      "body": {
+        "lg": {
+          "$type": "dimension",
+          "$value": "22px"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "18px"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "16px"
+        }
+      },
+      "label": {
+        "lg": {
+          "$type": "dimension",
+          "$value": "20px"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "16px"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "14px"
+        },
+        "xl": {
+          "$type": "dimension",
+          "$value": "22px"
+        }
+      },
+      "button": {
+        "sm": {
+          "$type": "dimension",
+          "$value": "18px"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "20px"
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": "22px"
+        }
+      }
+    },
+    "tracking": {
+      "display": {
+        "lg": {
+          "$type": "dimension",
+          "$value": "-0.5px"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "-0.25px"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "-0.25px"
+        }
+      },
+      "heading": {
+        "lg": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "0px"
+        }
+      },
+      "body": {
+        "lg": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "0.1px"
+        }
+      },
+      "label": {
+        "lg": {
+          "$type": "dimension",
+          "$value": "-0.1px"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "0.2px"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "0.4px"
+        },
+        "xl": {
+          "$type": "dimension",
+          "$value": "0.1px"
+        }
+      },
+      "button": {
+        "sm": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "0px"
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": "0px"
+        }
+      }
+    },
+    "weightValue": {
+      "regular": {
+        "$type": "fontWeight",
+        "$value": 400
+      },
+      "medium": {
+        "$type": "fontWeight",
+        "$value": 500
+      },
+      "semibold": {
+        "$type": "fontWeight",
+        "$value": 600
+      },
+      "bold": {
+        "$type": "fontWeight",
+        "$value": 700
+      }
+    }
+  },
+  "duration": {
+    "fast": {
+      "$type": "duration",
+      "$value": "120ms"
+    },
+    "base": {
+      "$type": "duration",
+      "$value": "200ms"
+    },
+    "slow": {
+      "$type": "duration",
+      "$value": "320ms"
+    }
+  },
+  "easing": {
+    "standard": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.2,
+        0,
+        0,
+        1
+      ]
+    },
+    "decelerate": {
+      "$type": "cubicBezier",
+      "$value": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "accelerate": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.3,
+        0,
+        1,
+        1
+      ]
+    }
+  },
+  "opacity": {
+    "disabled": {
+      "$type": "number",
+      "$value": 0.38
+    },
+    "overlay": {
+      "$type": "number",
+      "$value": 0.55
+    },
+    "pressed": {
+      "$type": "number",
+      "$value": 0.12
+    }
+  }
+}

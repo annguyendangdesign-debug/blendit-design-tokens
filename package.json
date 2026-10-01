@@ -1,0 +1,11 @@
+{
+  "name": "@goodblend/tokens",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Design tokens cho app Blend It (Goodblend) — xuất từ Figma Variables",
+  "type": "module",
+  "main": "build/rn/theme.ts",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  }
+}
