@@ -230,7 +230,7 @@
   --text-success: var(--color-green-700);
   --text-warning: var(--color-orange-800);
   --text-error: var(--color-red-800);
-  --text-on-success-solid: var(--color-graphite-900);
+  --text-on-success-solid: var(--color-green-100);
   --text-on-warning-solid: var(--color-orange-900);
   --text-on-error-solid: var(--color-white);
   --text-on-info-solid: var(--color-white);
@@ -254,7 +254,7 @@
   --icon-info: var(--color-blue-600);
   --icon-on-primary-container: var(--color-brand-600);
   --icon-brand-disabled: var(--color-graphite-300);
-  --icon-on-success-solid: var(--color-graphite-900);
+  --icon-on-success-solid: var(--color-green-100);
   --icon-on-warning-solid: var(--color-orange-900);
   --icon-on-error-solid: var(--color-white);
   --icon-on-info-solid: var(--color-white);
@@ -348,7 +348,7 @@
   --text-success: var(--color-green-100);
   --text-warning: var(--color-orange-100);
   --text-error: var(--color-red-100);
-  --text-on-success-solid: var(--color-graphite-900);
+  --text-on-success-solid: var(--color-green-100);
   --text-on-warning-solid: var(--color-orange-900);
   --text-on-error-solid: var(--color-graphite-900);
   --text-on-info-solid: var(--color-graphite-900);
@@ -372,7 +372,7 @@
   --icon-info: var(--color-blue-300);
   --icon-on-primary-container: var(--color-brand-100);
   --icon-brand-disabled: var(--color-graphite-400);
-  --icon-on-success-solid: var(--color-graphite-900);
+  --icon-on-success-solid: var(--color-green-100);
   --icon-on-warning-solid: var(--color-orange-900);
   --icon-on-error-solid: var(--color-graphite-900);
   --icon-on-info-solid: var(--color-graphite-900);
@@ -467,7 +467,7 @@
     --text-success: var(--color-green-100);
     --text-warning: var(--color-orange-100);
     --text-error: var(--color-red-100);
-    --text-on-success-solid: var(--color-graphite-900);
+    --text-on-success-solid: var(--color-green-100);
     --text-on-warning-solid: var(--color-orange-900);
     --text-on-error-solid: var(--color-graphite-900);
     --text-on-info-solid: var(--color-graphite-900);
@@ -491,7 +491,7 @@
     --icon-info: var(--color-blue-300);
     --icon-on-primary-container: var(--color-brand-100);
     --icon-brand-disabled: var(--color-graphite-400);
-    --icon-on-success-solid: var(--color-graphite-900);
+    --icon-on-success-solid: var(--color-green-100);
     --icon-on-warning-solid: var(--color-orange-900);
     --icon-on-error-solid: var(--color-graphite-900);
     --icon-on-info-solid: var(--color-graphite-900);

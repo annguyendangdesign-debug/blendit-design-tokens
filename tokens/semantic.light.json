@@ -212,7 +212,8 @@
     },
     "onSuccessSolid": {
       "$type": "color",
-      "$value": "{color.graphite.900}"
+      "$value": "{color.green.100}",
+      "$description": "Chữ trên nền fill/successSolid (xanh đặc). Light & Dark: green/100. Cập nhật 07/10/2026."
     },
     "onWarningSolid": {
       "$type": "color",
@@ -317,8 +318,8 @@
     },
     "onSuccessSolid": {
       "$type": "color",
-      "$value": "{color.graphite.900}",
-      "$description": "Icon trên nền success đặc. Cùng giá trị với text/onSuccessSolid."
+      "$value": "{color.green.100}",
+      "$description": "Icon trên nền success đặc. Cùng giá trị với text/onSuccessSolid (green/100). Cập nhật 07/10/2026."
     },
     "onWarningSolid": {
       "$type": "color",
