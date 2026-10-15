@@ -26,7 +26,8 @@
     },
     "primaryDisabled": {
       "$type": "color",
-      "$value": "{color.brand.200}"
+      "$value": "{color.brand.200}",
+      "$description": "Nền nút primary khi disabled. Light brand/200, Dark brand/800 — dark tối hơn nút active (brand/500) để không bị tưởng bấm được."
     },
     "secondary": {
       "$type": "color",
@@ -249,7 +250,7 @@
     "onPrimaryDisabled": {
       "$type": "color",
       "$value": "{color.brand.700}",
-      "$description": "Chữ trên nền primary khi disabled. CỐ ĐỊNH brand/700 ở cả 2 mode vì fill/primaryDisabled cũng đứng yên brand/200. Không dùng text/brandDisabled vì token đó lật theo mode."
+      "$description": "Chữ trên nền fill/primaryDisabled. Light brand/700, Dark brand/300. Luôn cùng giá trị với icon/onPrimaryDisabled."
     },
     "accent": {
       "$type": "color",
@@ -339,7 +340,7 @@
     "onPrimaryDisabled": {
       "$type": "color",
       "$value": "{color.brand.700}",
-      "$description": "Icon trên nền primary khi disabled. Cùng giá trị với text/onPrimaryDisabled."
+      "$description": "Icon trên nền fill/primaryDisabled. Cùng giá trị với text/onPrimaryDisabled (Light brand/700, Dark brand/300)."
     },
     "accent": {
       "$type": "color",

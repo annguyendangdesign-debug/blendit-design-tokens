@@ -537,7 +537,7 @@ const darkRaw = {
     "surfaceSunken": "#121920",
     "primary": "#C1272D",
     "primaryPressed": "#A81F26",
-    "primaryDisabled": "#F7C0C2",
+    "primaryDisabled": "#651217",
     "secondary": "#2F363D",
     "secondaryPressed": "#3A424A",
     "successSubtle": "#255425",
@@ -593,7 +593,7 @@ const darkRaw = {
     "onPrimaryMuted": "#FBE4E5",
     "onPrimaryContainer": "#FDF3F3",
     "brandDisabled": "#6E7B89",
-    "onPrimaryDisabled": "#88181F",
+    "onPrimaryDisabled": "#EF8E92",
     "accent": "#F2E5FF",
     "onAccentSolid": "#FFFFFF"
   },
@@ -615,7 +615,7 @@ const darkRaw = {
     "onWarningSolid": "#613400",
     "onErrorSolid": "#121920",
     "onInfoSolid": "#121920",
-    "onPrimaryDisabled": "#88181F",
+    "onPrimaryDisabled": "#EF8E92",
     "accent": "#C494F4",
     "onAccentSolid": "#FFFFFF"
   },

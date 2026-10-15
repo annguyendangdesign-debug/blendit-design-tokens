@@ -306,7 +306,7 @@
   --fill-surface-sunken: var(--color-graphite-900);
   --fill-primary: var(--color-brand-500);
   --fill-primary-pressed: var(--color-brand-600);
-  --fill-primary-disabled: var(--color-brand-200);
+  --fill-primary-disabled: var(--color-brand-800);
   --fill-secondary: var(--color-graphite-600);
   --fill-secondary-pressed: var(--color-graphite-500);
   --fill-success-subtle: var(--color-green-800);
@@ -356,7 +356,7 @@
   --text-on-primary-muted: var(--color-brand-100);
   --text-on-primary-container: var(--color-brand-50);
   --text-brand-disabled: var(--color-graphite-400);
-  --text-on-primary-disabled: var(--color-brand-700);
+  --text-on-primary-disabled: var(--color-brand-300);
   --text-accent: var(--color-purple-100);
   --text-on-accent-solid: var(--color-white);
   --icon-default: var(--color-graphite-400);
@@ -376,7 +376,7 @@
   --icon-on-warning-solid: var(--color-orange-900);
   --icon-on-error-solid: var(--color-graphite-900);
   --icon-on-info-solid: var(--color-graphite-900);
-  --icon-on-primary-disabled: var(--color-brand-700);
+  --icon-on-primary-disabled: var(--color-brand-300);
   --icon-accent: var(--color-purple-300);
   --icon-on-accent-solid: var(--color-white);
   --stroke-subtle: var(--color-graphite-600);
@@ -425,7 +425,7 @@
     --fill-surface-sunken: var(--color-graphite-900);
     --fill-primary: var(--color-brand-500);
     --fill-primary-pressed: var(--color-brand-600);
-    --fill-primary-disabled: var(--color-brand-200);
+    --fill-primary-disabled: var(--color-brand-800);
     --fill-secondary: var(--color-graphite-600);
     --fill-secondary-pressed: var(--color-graphite-500);
     --fill-success-subtle: var(--color-green-800);
@@ -475,7 +475,7 @@
     --text-on-primary-muted: var(--color-brand-100);
     --text-on-primary-container: var(--color-brand-50);
     --text-brand-disabled: var(--color-graphite-400);
-    --text-on-primary-disabled: var(--color-brand-700);
+    --text-on-primary-disabled: var(--color-brand-300);
     --text-accent: var(--color-purple-100);
     --text-on-accent-solid: var(--color-white);
     --icon-default: var(--color-graphite-400);
@@ -495,7 +495,7 @@
     --icon-on-warning-solid: var(--color-orange-900);
     --icon-on-error-solid: var(--color-graphite-900);
     --icon-on-info-solid: var(--color-graphite-900);
-    --icon-on-primary-disabled: var(--color-brand-700);
+    --icon-on-primary-disabled: var(--color-brand-300);
     --icon-accent: var(--color-purple-300);
     --icon-on-accent-solid: var(--color-white);
     --stroke-subtle: var(--color-graphite-600);
