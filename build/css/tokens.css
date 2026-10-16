@@ -335,7 +335,7 @@
   --fill-on-dark-a14: rgba(255, 255, 255, 0.14);
   --fill-on-dark-a70: rgba(255, 255, 255, 0.7);
   --fill-on-dark-a90: rgba(255, 255, 255, 0.9);
-  --fill-surface-inset: rgba(18, 25, 32, 0.5);
+  --fill-surface-inset: var(--color-graphite-700);
   --text-primary: var(--color-white);
   --text-secondary: var(--color-ivory-300);
   --text-muted: var(--color-graphite-300);
@@ -454,7 +454,7 @@
     --fill-on-dark-a14: rgba(255, 255, 255, 0.14);
     --fill-on-dark-a70: rgba(255, 255, 255, 0.7);
     --fill-on-dark-a90: rgba(255, 255, 255, 0.9);
-    --fill-surface-inset: rgba(18, 25, 32, 0.5);
+    --fill-surface-inset: var(--color-graphite-700);
     --text-primary: var(--color-white);
     --text-secondary: var(--color-ivory-300);
     --text-muted: var(--color-graphite-300);

@@ -157,8 +157,8 @@
     },
     "surfaceInset": {
       "$type": "color",
-      "$value": "#12192080",
-      "$description": "fill/surfaceSunken ở 50% alpha — nền khối thông tin phụ trong thẻ/sheet (F11)."
+      "$value": "{color.graphite.700}",
+      "$description": "Nền khối thông tin phụ trong thẻ/sheet (F11). Light: fill/surfaceSunken 50% alpha; Dark: graphite/700, sáng hơn fill/surface để khối không bị chìm."
     }
   },
   "text": {

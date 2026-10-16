@@ -570,7 +570,7 @@ const darkRaw = {
       "a70": "rgba(255, 255, 255, 0.7)",
       "a90": "rgba(255, 255, 255, 0.9)"
     },
-    "surfaceInset": "rgba(18, 25, 32, 0.5)"
+    "surfaceInset": "#232930"
   },
   "text": {
     "primary": "#FFFFFF",
